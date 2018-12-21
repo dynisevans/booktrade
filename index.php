@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if(!isset($_SESSION['login']))
+    if(!isset($_SESSION['1']))
     {
         $action = 'select';
 
