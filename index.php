@@ -1,12 +1,7 @@
 <?php
-    session_start();
-    if(!isset($_SESSION['login']))
-    {
-        $action = 'select';
 
-    }
-    else
-    {
+require_once 'controllers/controller_home.php';
+$p = new controller_home();
+$p->show_home();
 
-    }
 ?>
