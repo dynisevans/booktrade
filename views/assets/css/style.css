@@ -1,0 +1,17 @@
+section {
+    margin: 0.5em; }
+  
+  .banner {
+    width: 99%;
+    height: 120px;
+    background: #A0EEE4;
+    text-align: center; }
+  
+  .headerSec {
+    background: #E5CD75; }
+    .headerSec ul li a:hover {
+      background: #9D871A;
+      border-radius: 4px;
+      padding: 4px; }
+    .headerSec .searchbar button {
+      margin-left: 4px; }
