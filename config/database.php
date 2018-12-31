@@ -5,7 +5,7 @@ class Database {
     function __construct()
     {
         $this->con = mysqli_connect(DBHOST,DBUSER,DBPASSWORD,DBNAME);
-        if(!$con)
+        if(!$this->con)
             die("Connect failed");
         else
         {
