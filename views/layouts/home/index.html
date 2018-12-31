@@ -4,152 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel="stylesheet" type='text/css' href="views\assets\css\style.css">
-    <link rel="stylesheet" href="views\assets\css\bootstrap.min.css">
 
+    <link rel="stylesheet" type='text/css' href="views/assets/css/style.css">
+    <link rel="stylesheet" href="views/assets/css/bootstrap.min.css">
+    <script src="views/assets/js/jquery.min.js"></script>
+    <script src="views/assets/js/bootstrap.min.js"></script>
     <title>Sách ơi ahihi</title>
-	<base href="http://localhost/booktrade/views" target="_blank">
+    <base href="http://localhost/booktrade/views" target="_blank">
 </head>
 <body class="home-page" id="top-page"><!-- ////////////// Header ////////////// -->
-    <main>
-      <section class="banner"><img class="imgBanner" src="views/assets/img/book-header.png" alt="headerPhoto">
+<main>
+    <section class="banner"><img class="imgBanner" src="views/assets/img/book-header.png" alt="headerPhoto">
         <div class="rightCon">
-          <div class="loginArea">
-            <label for=".eml">Email</label>
-            <input class="form-control" id="eml" type="email" placeholder="Enter Email">
-            <label for=".eml">Password</label>
-            <input class="form-control" id="psw" type="password" placeholder="Enter Password">
-            <button class="btn btn-success" type="submit">Submit</button>
-          </div>
+            <div class="loginArea">
+                <label for=".eml">Email</label>
+                <input class="form-control" id="eml" type="email" placeholder="Enter Email">
+                <label for=".eml">Password</label>
+                <input class="form-control" id="psw" type="password" placeholder="Enter Password">
+                <button class="btn btn-success" type="submit">Submit</button>
+            </div>
         </div>
-      </section>
-      <section class="headerSec sticky-top">
+    </section>
+    <section class="headerSec sticky-top">
         <div class="navbar navbar-light">
-          <ul class="navbar-nav navbar-expand-xl">
-            <li><a class="navbar-brand" href="#">Home</a></li>
-            <li class="dropdown"><a class="navbar-brand dropdown-toggle" href="#" data-toggle="dropdown">Book</a>
-              <div class="dropdown-menu"><a class="dropdown-item" href="#">Comedy</a><a class="dropdown-item" href="#">Horror</a><a class="dropdown-item" href="#">Drama</a><a class="dropdown-item" href="#">Manga</a></div>
-            </li>
-            <li><a class="navbar-brand" href="#">EBook</a></li>
-            <li><a class="navbar-brand" href="#">Contact</a></li>
-            <li><a class="navbar-brand" href="#">Facebook</a></li>
-          </ul>
+            <ul class="navbar-nav navbar-expand-xl">
+                <li><a class="navbar-brand" href="#">Home</a></li>
+                <li class="dropdown"><a class="navbar-brand dropdown-toggle" href="#" data-toggle="dropdown">Book</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Comedy</a><a class="dropdown-item"
+                                                                                              href="#">Horror</a><a
+                            class="dropdown-item" href="#">Drama</a><a class="dropdown-item" href="#">Manga</a></div>
+                </li>
+                <li><a class="navbar-brand" href="#">EBook</a></li>
+                <li><a class="navbar-brand" href="#">Contact</a></li>
+                <li><a class="navbar-brand" href="#">Facebook</a></li>
+            </ul>
         </div>
         <div class="searchbar form-inline">
-          <input class="form-control" type="Search" placeholder="Search">
-          <button class="btn" type="submit">submit</button>
+            <input class="form-control" type="Search" placeholder="Search">
+            <button class="btn" type="submit">submit</button>
         </div>
-      </section>
-      <section class="bodySec">
+    </section>
+    <section class="bodySec">
         <div class="row">
-          <div class="col-md-9">
-            <div class="leftContainer">
-              <div class="hotBooks">
-                <h2>Sách đang HOT</h2>
-                <div class="flexContainer d-flex justify-content-around flex-wrap">
-                  <div class="card"><img src="views/assets/img/bookscover/peter.jpg" alt="item1">
-                    <div class="card-body">
-                      <h5>Peter Pan</h5>
-                      <p>Peter Pan infomation</p>
-                      <button class="btn">Giá: </button>
-                      <button class="btn">Hmmm</button>
+            <div class="col-md-9">
+                <div class="leftContainer">
+                    <div class="hotBooks">
+                        <h2>Sách đang HOT</h2>
+                        <div class="flexContainer d-flex justify-content-around flex-wrap">
+                            <div class="card"><img src="views/assets/img/bookscover/peter.jpg" alt="item1">
+                                <div class="card-body">
+                                    <h5>Peter Pan</h5>
+                                    <p>Peter Pan infomation</p>
+                                    <button class="btn">Giá:</button>
+                                    <button class="btn">Hmmm</button>
+                                </div>
+                            </div>
+                            <div class="card"><img src="views/assets/img/bookscover/pi.jpg" alt="item2">
+                                <div class="card-body">
+                                    <h5>Life Of PI</h5>
+                                    <p>Life Of PI infomation</p>
+                                    <button class="btn">Giá:</button>
+                                    <button class="btn">Hmmm</button>
+                                </div>
+                            </div>
+                            <div class="card"><img src="views/assets/img/bookscover/snowwhite.jpg" alt="item3">
+                                <div class="card-body">
+                                    <h5>Snow White</h5>
+                                    <p>Snow White infomation</p>
+                                    <button class="btn">Giá:</button>
+                                    <button class="btn">Hmmm</button>
+                                </div>
+                            </div>
+                            <div class="card"><img src="views/assets/img/bookscover/snowwhite.jpg" alt="item4">
+                                <div class="card-body">
+                                    <h5>Snow White</h5>
+                                    <p>Snow White infomation</p>
+                                    <button class="btn">Giá:</button>
+                                    <button class="btn">Hmmm</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="card"><img src="views/assets/img/bookscover/pi.jpg" alt="item2">
-                    <div class="card-body">
-                      <h5>Life Of PI</h5>
-                      <p>Life Of PI infomation</p>
-                      <button class="btn">Giá: </button>
-                      <button class="btn">Hmmm</button>
+                    <div class="bestSeller">
+                        <h2>Best Seller</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ratione laudantium
+                            error nulla tempora fugit, enim distinctio asperiores ipsum blanditiis exercitationem
+                            consectetur necessitatibus veritatis reprehenderit accusamus inventore? Saepe, dolorum
+                            quasi.</p>
                     </div>
-                  </div>
-                  <div class="card"><img src="views/assets/img/bookscover/snowwhite.jpg" alt="item3">
-                    <div class="card-body">
-                      <h5>Snow White</h5>
-                      <p>Snow White infomation</p>
-                      <button class="btn">Giá: </button>
-                      <button class="btn">Hmmm</button>
-                    </div>
-                  </div>
-                  <div class="card"><img src="views/assets/img/bookscover/snowwhite.jpg" alt="item4">
-                    <div class="card-body">
-                      <h5>Snow White</h5>
-                      <p>Snow White infomation</p>
-                      <button class="btn">Giá: </button>
-                      <button class="btn">Hmmm</button>
-                    </div>
-                  </div>
                 </div>
-              </div>
-              <div class="bestSeller">
-                <h2>Best Seller</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ratione laudantium error nulla tempora fugit, enim distinctio asperiores ipsum blanditiis exercitationem consectetur necessitatibus veritatis reprehenderit accusamus inventore? Saepe, dolorum quasi.</p>
-              </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="rightContainer">
-              <div class="toolBox">
-                <h2>Toolbox</h2>
-                <ul class="nav nav-tabs">
-                  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#find">Find Books</a></li>
-                  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#add">Add Books</a></li>
-                  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#bla">Góp Ý</a></li>
-                </ul>
-                <div class="tab-content">
-                  <div class="tab-pane active" id="find">
-                    <div class="form-group">
-                      <label for="tl">Thể Loại</label>
-                      <select class="form-control" id="tl" name="theLoai">
-                        <option hidden selected value>--Chọn thể loại--</option>
-                        <option value="1">Comedy</option>
-                        <option value="2">Horror</option>
-                        <option value="3">Drama</option>
-                        <option value="4">Manga</option>
-                        <option value="5">Child</option>
-                      </select></br>
+            <div class="col-md-3">
+                <div class="rightContainer">
+                    <div class="toolBox">
+                        <h2>Toolbox</h2>
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#find">Find Books</a></li>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#add">Add Books</a></li>
+                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#bla">Góp Ý</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="find">
+                                <div class="form-group">
+                                    <label for="tl">Thể Loại</label>
+                                    <select class="form-control" id="tl" name="theLoai">
+                                        <option hidden selected value>--Chọn thể loại--</option>
+                                        <option value="1">Comedy</option>
+                                        <option value="2">Horror</option>
+                                        <option value="3">Drama</option>
+                                        <option value="4">Manga</option>
+                                        <option value="5">Child</option>
+                                    </select></br>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade active" id="add">
+                                <p>Bạn phải đăng nhập để sử dụng chức năng này</p>
+                            </div>
+                            <div class="tab-pane fade" id="bla">
+                                <div class="form-group">
+                                    <label for="td">Tiêu Đề</label>
+                                    <input class="form-control" id="td" type="text" placeholder="Nhập tiêu đề">
+                                    <label for="txt">Chi tiết</label>
+                                    <textarea class="form-control" id="txt" cols="30" rows="3"
+                                              placeholder="..."></textarea></br>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="tab-pane fade active" id="add">
-                    <p>Bạn phải đăng nhập để sử dụng chức năng này</p>
-                  </div>
-                  <div class="tab-pane fade" id="bla">
-                    <div class="form-group">
-                      <label for="td">Tiêu Đề</label>
-                      <input class="form-control" id="td" type="text" placeholder="Nhập tiêu đề">
-                      <label for="txt">Chi tiết</label>
-                      <textarea class="form-control" id="txt" cols="30" rows="3" placeholder="..."></textarea></br>
+                    <div class="t2">
+                        <h2>Tiêu Đề</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corporis impedit deleniti
+                            odit delectus numquam? Voluptatem autem, soluta doloremque nesciunt tempora consequuntur,
+                            deserunt at, earum recusandae assumenda reiciendis hic beatae!</p>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="t2">
-                <h2>Tiêu Đề</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corporis impedit deleniti odit delectus numquam? Voluptatem autem, soluta doloremque nesciunt tempora consequuntur, deserunt at, earum recusandae assumenda reiciendis hic beatae!</p>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
-      <section class="footerSec">
+    </section>
+    <section class="footerSec">
         <div class="row">
-          <div class="col-md-4 cont">
-            <h4 class="ftTitle">Contact:</h4>
-            <p>Phone: (+84)-912 197 947</p>
-            <p>Mail: dynisevans@gmail.com</p>
-          </div>
-          <div class="col-md-4 dtac">
-            <h4 class="ftTitle">Đối Tác</h4>
-          </div>
-          <div class="col-md-4 cp">
-            <p class="ftTitle">@Copyright by blabla</p>
-          </div>
+            <div class="col-md-4 cont">
+                <h4 class="ftTitle">Contact:</h4>
+                <p>Phone: (+84)-912 197 947</p>
+                <p>Mail: dynisevans@gmail.com</p>
+            </div>
+            <div class="col-md-4 dtac">
+                <h4 class="ftTitle">Đối Tác</h4>
+            </div>
+            <div class="col-md-4 cp">
+                <p class="ftTitle">@Copyright by blabla</p>
+            </div>
         </div>
-      </section>
-    </main><!-- ////////////// End Main ////////////// -->
+    </section>
+</main><!-- ////////////// End Main ////////////// -->
 <!-- ////////////// Footer ////////////// -->
-    <!-- inject:js -->
-    <!-- endinject -->
-  </body>
+<!-- inject:js -->
+<!-- endinject -->
+</body>
 </html>
