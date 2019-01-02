@@ -1,0 +1,163 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section {
+    margin: 0 3em 0.5em;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 15em;
+    border-radius: 0.4em;
+}
+
+.banner .rightCon {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin: 0.5em auto;
+    width: 30em;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0.3em;
+    box-shadow: 0em 0em 2em 0.5em;
+}
+
+.banner .rightCon .loginArea {
+    margin: 1em 5em 1em 5em;
+}
+
+.banner .rightCon .btn {
+    margin-top: 0.5em;
+}
+
+.banner .rightCon label {
+    font-weight: bold;
+}
+
+.headerSec {
+    background: #faf8ad;
+    border-radius: 0.5em;
+    height: 3.5em;
+}
+
+.headerSec ul li {
+    padding: 0 0.7em;
+}
+
+.headerSec ul li:hover {
+    background: #9D871A;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.headerSec .searchbar {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+
+.headerSec .searchbar button {
+    margin-left: 4px;
+}
+
+.bodySec .leftContainer .hotBooks {
+    background: #F1E6BE;
+    border-radius: 0.5em;
+}
+
+.bodySec .leftContainer .hotBooks h2 {
+    text-align: center;
+    padding: 0.5em 0 1em 0;
+}
+
+.bodySec .leftContainer .hotBooks .card {
+    width: 15em;
+    padding: 0.3em;
+    margin: 0.5em 0 0.5em 0;
+    text-align: center;
+}
+
+.bodySec .leftContainer .hotBooks .card img {
+    width: 100%;
+}
+
+.bodySec .leftContainer .hotBooks .card .btn {
+    background: #C7FBF3;
+}
+
+.bodySec .leftContainer .bestSeller {
+    margin-top: 10px;
+    padding: 1em 0em 0em 1em;
+    background: #F1E6BE;
+    border-radius: 0.5em;
+}
+
+.bodySec .leftContainer .bestSeller h2 {
+    text-align: center;
+}
+
+.bodySec .rightContainer .toolBox {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.5em;
+}
+
+.bodySec .rightContainer .toolBox h2 {
+    text-align: center;
+}
+
+.bodySec .rightContainer .toolBox ul li {
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+}
+
+.bodySec .rightContainer .toolBox .tab-content {
+    margin: 0.5em;
+}
+
+.bodySec .rightContainer .toolBox .tab-content .form-group {
+    margin: 0.5em 0.5em;
+}
+
+.bodySec .rightContainer .toolBox .tab-content label {
+    padding-top: 1em;
+}
+
+.bodySec .rightContainer .t2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.bodySec .rightContainer .t2 h2 {
+    text-align: center;
+}
+
+.footerSec {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    letter-spacing: 0.1em;
+    padding: 0.5em 0.5em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin-bottom: -0.3em;
+    box-shadow: 0em 0.5em 0.5em;
+}
+
+.footerSec .dtac {
+    border-right: 0.3em dashed rgba(0, 0, 0, 0.3);
+    border-left: 0.3em dashed rgba(0, 0, 0, 0.3);
+}
+
+.footerSec .ftTitle {
+    text-align: center;
+}
