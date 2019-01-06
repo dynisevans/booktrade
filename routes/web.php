@@ -30,3 +30,24 @@ Route::get('/trade', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/contact','UserController@showContact');
+
+Route::get('/category', function () {
+   return 'Category';
+});
+
+Route::group(['prefix' => 'category'], function(){
+    Route::get('tinhcam', function(){
+        echo 'Tình cảm';
+    });
+    Route::get('langman', function(){
+        echo 'Lãng mạn';
+    });
+    Route::get('traigai', function(){
+        echo 'Trai gái';
+    });
+});
+
+Route::post('login','LoginController@postLogin');
+Route::post('contact','UserController@postContact');

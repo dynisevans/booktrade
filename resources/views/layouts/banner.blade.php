@@ -1,7 +1,8 @@
 <img class="imgBanner" src="img/book-header.png" alt="headerPhoto">
 <div class="rightCon">
     <div class="loginArea">
-        <form method="post">
+        <form method="post" action="login">
+            {{csrf_field()}}
             <label for=".eml">Email</label>
             <input class="form-control" id="eml" type="email" placeholder="Enter Email">
             <label for=".eml">Password</label>
