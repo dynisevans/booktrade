@@ -10,7 +10,8 @@
                         <h5>Life Of PI</h5>
                         <p>Life Of PI infomation</p>
                         <button class="btn">15.000đ</button>
-                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i class="fa fa-arrow-alt-circle-left"></i></button>
+                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i
+                                    class="fa fa-arrow-alt-circle-left"></i></button>
                     </div>
                 </div>
                 <div class="card"><img src="img/bookscover/snowwhite.jpg" alt="item3">
@@ -18,7 +19,8 @@
                         <h5>Snow White</h5>
                         <p>Snow White infomation</p>
                         <button class="btn">15.000đ</button>
-                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i class="fa fa-arrow-alt-circle-left"></i></button>
+                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i
+                                    class="fa fa-arrow-alt-circle-left"></i></button>
                     </div>
                 </div>
                 <div class="card"><img src="img/bookscover/snowwhite.jpg" alt="item4">
@@ -26,7 +28,8 @@
                         <h5>Snow White</h5>
                         <p>Snow White infomation</p>
                         <button class="btn">15.000đ</button>
-                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i class="fa fa-arrow-alt-circle-left"></i></button>
+                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i
+                                    class="fa fa-arrow-alt-circle-left"></i></button>
                     </div>
                 </div>
                 <div class="card"><img src="img/bookscover/snowwhite.jpg" alt="item4">
@@ -34,7 +37,8 @@
                         <h5>Snow White</h5>
                         <p>Snow White infomation</p>
                         <button class="btn">15.000đ</button>
-                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i class="fa fa-arrow-alt-circle-left"></i></button>
+                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i
+                                    class="fa fa-arrow-alt-circle-left"></i></button>
                     </div>
                 </div>
             </div>
