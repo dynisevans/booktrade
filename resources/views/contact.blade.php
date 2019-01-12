@@ -3,6 +3,7 @@
 @section('content')
     <div class="leftContainer">
         <div class="hotBooks">
+
             <h1>{{$contact}}</h1>
             {!! Form::open(array('url' => 'contact')) !!}
             <div class="form-group form-inline">
@@ -37,7 +38,8 @@
                 <div class="col-sm-offset-2 col-sm-2">
                     {!! Form::submit('Gửi tin nhắn', array('class' => 'btn btn-success')) !!}
                 </div>
-            </div><br>
+            </div>
+            <br>
             {!! Form::close() !!}
         </div>
     </div>

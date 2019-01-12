@@ -1,14 +1,22 @@
-<img class="imgBanner" src="img/book-header.png" alt="headerPhoto">
+<img class="imgBanner" src="{!! url('public/img/book-header.png') !!}" alt="headerPhoto">
 <div class="rightCon">
+    <h4>SIGN IN</h4>
     <div class="loginArea">
-        <form method="post" action="login">
-            {{csrf_field()}}
-            <label for=".eml">Email</label>
-            <input class="form-control" id="eml" type="email" placeholder="Enter Email">
-            <label for=".eml">Password</label>
-            <input class="form-control" id="psw" type="password" placeholder="Enter Password">
-            <button class="btn btn-success" type="submit" name="login-btn"><i class="fa fa-user"></i> Đăng nhập</button>
-            <button class="btn btn-danger" type="button"><i class="fa fa-question"></i> Quên mật khẩu</button>
-        </form>
+        <div class="input-group form-group">
+            <div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-user"></i></span>
+                <input class="form-control" type="text" placeholder="username">
+            </div>
+        </div>
+        <div class="input-group form-group">
+            <div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-key"></i></span>
+                <input class="form-control" type="password" placeholder="password">
+            </div>
+        </div>
+        <div class="row align-items-center remember">
+            <input type="checkbox"><span>Remember Me</span>
+        </div>
+        <div class="form-group">
+            <input class="btn login_btn" type="submit" value="Login">
+        </div>
     </div>
 </div>
