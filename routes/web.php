@@ -11,13 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'HomeController@index');
 
-Route::get('/home', function () {
-    return view('home');
-});
+Route::get('/home', 'HomeController@index');
+Route::get('/book','HomeController@index');
+Route::get('/book/{BookID}','BookController@show');
+
+Route::resource('home','HomeController');
+Route::resource('book','HomeController');
 
 Route::get('/buy', function () {
     return view('buy');
@@ -27,7 +28,7 @@ Route::get('/trade', function () {
     return view('trade');
 });
 
-Route::get('/about', function () {
+Route::get('about', function () {
     return view('about');
 });
 

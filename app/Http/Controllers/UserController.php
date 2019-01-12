@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use App\Account;
 
 class UserController extends Controller
 {
@@ -11,6 +12,7 @@ class UserController extends Controller
         $data = array('contact' => 'Liên hệ');
         return view('contact',$data);
     }
+
 
     public function postContact(Request $request)
     {

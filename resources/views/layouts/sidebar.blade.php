@@ -2,9 +2,9 @@
     <div class="toolBox">
         <h2>Toolbox</h2>
         <ul class="nav nav-tabs">
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#find">Find Books</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#add">Add Books</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#bla">Góp Ý</a></li>
+            <li class="nav-item find"><a class="nav-link" data-toggle="tab" href="#find">Find Books</a></li>
+            <li class="nav-item add"><a class="nav-link" data-toggle="tab" href="#add">Add Books</a></li>
+            <li class="nav-item gopY"><a class="nav-link" data-toggle="tab" href="#bla">Góp Ý</a></li>
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" id="find">
@@ -21,23 +21,20 @@
                 </div>
             </div>
             <div class="tab-pane fade active" id="add">
-                <p>Bạn phải đăng nhập để sử dụng chức năng này</p>
+                <p>Bạn phải <span class='dn'>đăng nhập</span> để sử dụng chức năng này</p>
             </div>
             <div class="tab-pane fade" id="bla">
                 <div class="form-group">
                     <label for="td">Tiêu Đề</label>
                     <input class="form-control" id="td" type="text" placeholder="Nhập tiêu đề">
                     <label for="txt">Chi tiết</label>
-                    <textarea class="form-control" id="txt" cols="30" rows="3"
-                              placeholder="..."></textarea></br>
+                    <textarea class="form-control" id="txt" cols="30" rows="3" placeholder="..."></textarea></br>
                 </div>
             </div>
         </div>
     </div>
     <div class="t2">
         <h2>Tiêu Đề</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corporis impedit deleniti
-            odit delectus numquam? Voluptatem autem, soluta doloremque nesciunt tempora consequuntur,
-            deserunt at, earum recusandae assumenda reiciendis hic beatae!</p>
+        <p id="tText"></p>
     </div>
 </div>

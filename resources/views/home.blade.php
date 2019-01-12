@@ -5,42 +5,23 @@
         <div class="hotBooks">
             <h2>Sách đang HOT</h2>
             <div class="flexContainer d-flex justify-content-around flex-wrap">
-                <div class="card"><img src="img/bookscover/pi.jpg" alt="item2">
-                    <div class="card-body">
-                        <h5>Life Of PI</h5>
-                        <p>Life Of PI infomation</p>
-                        <button class="btn">15.000đ</button>
-                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i
-                                    class="fa fa-arrow-alt-circle-left"></i></button>
+                @foreach($books as $b)
+                    <div class="card">
+                        <img class="imgHover" src="{!! url('public/img/bookscover/peter.jpg"') !!} alt="item1">
+                        <div class="cardDetails">
+                            <p>{{$b->BookDescription}}</p>
+                        </div>
+                        <div class="card-body"><a href="book/{{$b->BookID}}">
+                                <h5>{{$b->BookName}}</h5></a>
+                            <div class="bookInfor"><i class="fas fa-user-edit"></i><span>Tác Giả: {{$b->AuthorName}}</span>
+                            </div>
+                            <div class="btnClass">
+                                <button class="btn">Buye: 5</button>
+                                <button class="btn">Trads: 5</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card"><img src="img/bookscover/snowwhite.jpg" alt="item3">
-                    <div class="card-body">
-                        <h5>Snow White</h5>
-                        <p>Snow White infomation</p>
-                        <button class="btn">15.000đ</button>
-                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i
-                                    class="fa fa-arrow-alt-circle-left"></i></button>
-                    </div>
-                </div>
-                <div class="card"><img src="img/bookscover/snowwhite.jpg" alt="item4">
-                    <div class="card-body">
-                        <h5>Snow White</h5>
-                        <p>Snow White infomation</p>
-                        <button class="btn">15.000đ</button>
-                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i
-                                    class="fa fa-arrow-alt-circle-left"></i></button>
-                    </div>
-                </div>
-                <div class="card"><img src="img/bookscover/snowwhite.jpg" alt="item4">
-                    <div class="card-body">
-                        <h5>Snow White</h5>
-                        <p>Snow White infomation</p>
-                        <button class="btn">15.000đ</button>
-                        <button class="btn"><i class="fa fa-arrow-alt-circle-right"></i> <i
-                                    class="fa fa-arrow-alt-circle-left"></i></button>
-                    </div>
-                </div>
+                    @endforeach
             </div>
         </div>
         <div class="bestSeller">
